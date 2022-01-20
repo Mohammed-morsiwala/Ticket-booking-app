@@ -12,7 +12,7 @@ var wg = sync.WaitGroup{}
 
 const confrenceTicket = 50
 
-// sugar syntax only for int
+// sugar syntax only for var not for const
 var confrenceName = "Go conference"
 var remainigTicket uint = 50
 var bookings = make([]userData, 0)
